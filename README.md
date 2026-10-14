@@ -2,6 +2,8 @@
 
 # DraftWord — downloads
 
+*[English version](README.en.md)*
+
 DraftWord é um processador de texto para macOS e Windows, feito como hobby.
 **É gratuito e não aceita pagamento de nenhum tipo**: sem venda, assinatura, anúncios ou doações.
 Não é uma oferta comercial e não está em nenhuma loja.
