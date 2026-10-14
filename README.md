@@ -46,7 +46,9 @@ Baixe o arquivo da versão nova e instale por cima. Os documentos ficam onde voc
 
 ## Versão atual
 
-0.6.1-draftword.15 (14/out/2026).
+0.6.1-draftword.16 (14/out/2026).
+
+Novidades: o salvamento automático liga assim que um `.docx` é aberto, e uma cópia de recuperação é guardada enquanto você escreve; se o app fechar sem salvar, a abertura seguinte oferece o documento de volta.
 
 ## Código-fonte
 

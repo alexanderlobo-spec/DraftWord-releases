@@ -46,7 +46,9 @@ Download the new version's file and install it over the old one. Your documents 
 
 ## Current version
 
-0.6.1-draftword.15 (October 14, 2026).
+0.6.1-draftword.16 (October 14, 2026).
+
+What's new: AutoSave turns on as soon as a `.docx` is opened, and a recovery copy is kept while you write; if the app closes without saving, the next launch offers the document back.
 
 ## Source code
 
