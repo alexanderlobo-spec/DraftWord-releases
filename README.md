@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="160" alt="DraftWord"></p>
+
 # DraftWord — downloads
 
 DraftWord é um processador de texto para macOS e Windows, feito como hobby.
