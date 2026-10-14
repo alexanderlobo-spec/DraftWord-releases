@@ -20,6 +20,30 @@ interface, icons and themes. License notices and attributions ship inside each p
 
 Each file has a `.sha256` next to it for verification.
 
+## How to install
+
+### macOS
+
+1. Open the [`macOS/`](macOS/) folder, click the `.dmg` file, then the **Download** button.
+2. Open the downloaded file. A window shows the DraftWord icon next to the Applications folder.
+3. Drag DraftWord onto Applications.
+4. Launch DraftWord from Launchpad or the Applications folder. There is no warning: the app is notarized by Apple.
+5. You can eject the "DraftWord" disk and delete the `.dmg`.
+
+### Windows
+
+1. Open the [`windows/`](windows/) folder, click the `.msi` file, then the **Download** button.
+2. Double-click the downloaded file.
+3. If the blue "Windows protected your PC" screen appears, click **More info**, then **Run anyway**. The button only shows after "More info". That is SmartScreen noting the app has no paid certificate; it happens on the first run only.
+4. Follow the installer: accept the license, Install, Finish. It may ask for an administrator password.
+5. DraftWord is in the Start menu.
+
+**Not allowed to install programs?** Download the portable `.zip`, unzip it into a folder of yours (Documents, for example) and open the `DraftWord.exe` inside. Nothing is installed.
+
+### Updating
+
+Download the new version's file and install it over the old one. Your documents stay where you saved them; the installation does not touch them.
+
 ## Current version
 
 0.6.1-draftword.15 (October 14, 2026).

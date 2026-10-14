@@ -20,6 +20,30 @@ Baseado no [WordCraft](https://github.com/storytold/wordcraft) (MIT OR Apache-2.
 
 Cada arquivo tem um `.sha256` ao lado para conferência.
 
+## Como instalar
+
+### macOS
+
+1. Entre na pasta [`macOS/`](macOS/), clique no arquivo `.dmg` e depois no botão **Download**.
+2. Abra o arquivo baixado. Aparece uma janela com o ícone do DraftWord e a pasta Aplicativos.
+3. Arraste o DraftWord para Aplicativos.
+4. Abra o DraftWord pelo Launchpad ou pela pasta Aplicativos. Não há aviso: o app é notarizado pela Apple.
+5. Pode ejetar o disco "DraftWord" e apagar o `.dmg`.
+
+### Windows
+
+1. Entre na pasta [`windows/`](windows/), clique no arquivo `.msi` e depois no botão **Download**.
+2. Dê dois cliques no arquivo baixado.
+3. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** e depois em **Executar assim mesmo**. O botão só aparece depois de "Mais informações". É o SmartScreen avisando que o app não tem certificado pago; acontece só na primeira vez.
+4. Siga o instalador: aceitar a licença, Instalar, Concluir. Ele pode pedir a senha de administrador.
+5. O DraftWord fica no menu Iniciar.
+
+**Sem permissão para instalar programas?** Baixe o `.zip` portátil, descompacte numa pasta sua (Documentos, por exemplo) e abra o `DraftWord.exe` de dentro dela. Nada é instalado.
+
+### Atualizar
+
+Baixe o arquivo da versão nova e instale por cima. Os documentos ficam onde você salvou; a instalação não mexe neles.
+
 ## Versão atual
 
 0.6.1-draftword.15 (14/out/2026).
