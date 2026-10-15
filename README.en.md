@@ -46,9 +46,9 @@ Download the new version's file and install it over the old one. Your documents 
 
 ## Current version
 
-0.6.1-draftword.18 (October 14, 2026).
+0.6.1-draftword.19 (October 14, 2026).
 
-What's new: a new icon, the "hollow D page", also used as the header mark. The Options tile on the File screen now opens the options, the area around the first ribbon island on Windows is no longer black, the status bar gets a zoom slider and the app shows one page at a time while typing (two only with Multiple Pages), and compact mode gets a visible Full Mode button. From .16: AutoSave turns on as soon as a `.docx` is opened, and a recovery copy is kept while you write.
+What's new: a Close button on the app's first row that closes the document and returns to the Library without closing the window; a second row in the bullet library (● ■ □ ❖ ► ★ →); Wingdings bullets from Word files no longer show as a boxed "?". From .18: new icon, Options on the File screen, Windows background, zoom slider and one page at a time, Full Mode button.
 
 ## Source code
 

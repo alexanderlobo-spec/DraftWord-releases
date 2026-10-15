@@ -46,9 +46,9 @@ Baixe o arquivo da versão nova e instale por cima. Os documentos ficam onde voc
 
 ## Versão atual
 
-0.6.1-draftword.18 (14/out/2026).
+0.6.1-draftword.19 (14/out/2026).
 
-Novidades: ícone novo, a "Página em D vazado", também na marca do cabeçalho. O botão Opções da tela Arquivo passa a abrir as opções, a área ao redor da primeira ilha no Windows deixa de ficar preta, a barra de estado ganha um controle deslizante de zoom e o app mostra uma página por vez ao digitar (duas só com Várias páginas), e o modo compacto ganha um botão visível de Modo completo. Da .16: o salvamento automático liga assim que um `.docx` é aberto, e uma cópia de recuperação é guardada enquanto você escreve.
+Novidades: botão Fechar na primeira linha do app, que fecha o documento e volta à Biblioteca sem fechar a janela; biblioteca de marcadores com uma segunda fileira (● ■ □ ❖ ► ★ →); marcadores Wingdings de arquivos do Word deixam de aparecer como caixa com "?". Da .18: ícone novo, Opções na tela Arquivo, fundo no Windows, controle deslizante de zoom e uma página por vez, botão Modo completo.
 
 ## Código-fonte
 
