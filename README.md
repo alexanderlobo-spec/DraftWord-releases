@@ -33,10 +33,11 @@ Cada arquivo tem um `.sha256` ao lado para conferência.
 ### Windows
 
 1. Entre na pasta [`windows/`](windows/), clique no arquivo `.msi` e depois no botão **Download**.
-2. Dê dois cliques no arquivo baixado.
-3. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** e depois em **Executar assim mesmo**. O botão só aparece depois de "Mais informações". É o SmartScreen avisando que o app não tem certificado pago; acontece só na primeira vez.
-4. Siga o instalador: aceitar a licença, Instalar, Concluir. Ele pode pedir a senha de administrador.
-5. O DraftWord fica no menu Iniciar.
+2. Se o download não aparecer, olhe a lista de downloads do navegador: o Edge costuma bloquear o `.msi` por não ter certificado pago. Clique nos três pontos ao lado do arquivo e escolha **Manter**. No Chrome o download costuma passar direto.
+3. Dê dois cliques no arquivo baixado.
+4. Se aparecer a tela azul "O Windows protegeu o computador", clique em **Mais informações** e depois em **Executar assim mesmo**. O botão só aparece depois de "Mais informações". É o SmartScreen avisando que o app não tem certificado pago; acontece só na primeira vez.
+5. Siga o instalador: aceitar a licença, Instalar, Concluir. Ele pode pedir a senha de administrador.
+6. O DraftWord fica no menu Iniciar.
 
 **Sem permissão para instalar programas?** Baixe o `.zip` portátil, descompacte numa pasta sua (Documentos, por exemplo) e abra o `DraftWord.exe` de dentro dela. Nada é instalado.
 

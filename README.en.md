@@ -33,10 +33,11 @@ Each file has a `.sha256` next to it for verification.
 ### Windows
 
 1. Open the [`windows/`](windows/) folder, click the `.msi` file, then the **Download** button.
-2. Double-click the downloaded file.
-3. If the blue "Windows protected your PC" screen appears, click **More info**, then **Run anyway**. The button only shows after "More info". That is SmartScreen noting the app has no paid certificate; it happens on the first run only.
-4. Follow the installer: accept the license, Install, Finish. It may ask for an administrator password.
-5. DraftWord is in the Start menu.
+2. If nothing shows up, check the browser's download list: Edge often blocks the `.msi` because it has no paid certificate. Click the three dots next to the file and choose **Keep**. Chrome usually lets it through.
+3. Double-click the downloaded file.
+4. If the blue "Windows protected your PC" screen appears, click **More info**, then **Run anyway**. The button only shows after "More info". That is SmartScreen noting the app has no paid certificate; it happens on the first run only.
+5. Follow the installer: accept the license, Install, Finish. It may ask for an administrator password.
+6. DraftWord is in the Start menu.
 
 **Not allowed to install programs?** Download the portable `.zip`, unzip it into a folder of yours (Documents, for example) and open the `DraftWord.exe` inside. Nothing is installed.
 
