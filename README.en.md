@@ -47,9 +47,9 @@ Download the new version's file and install it over the old one. Your documents 
 
 ## Current version
 
-0.6.1-draftword.20 (October 16, 2026).
+0.6.1-draftword.21 (October 17, 2026).
 
-What's new: the Windows installer is now an `.exe`, which Edge accepts more readily than the `.msi` and installs without an administrator password. From .19: a Close button on the app's first row that closes the document and returns to the Library without closing the window; a second row in the bullet library (● ■ □ ❖ ► ★ →); Wingdings bullets from Word files no longer show as a boxed "?". From .18: new icon, Options on the File screen, Windows background, zoom slider and one page at a time, Full Mode button.
+What's new: the interface no longer mentions Microsoft brands where a neutral term exists: "Word Document" became "DOCX Document", SmartArt became "Diagram" (with the "Diagram Design" tab), WordArt became "text art" and "Office 2003 default" became "Classic default (2003)"; error messages follow the same rule. From .20: the Windows installer is an `.exe`, which Edge accepts more readily than the `.msi` and installs without an administrator password. From .19: a Close button on the app's first row that closes the document and returns to the Library without closing the window; a second row in the bullet library (● ■ □ ❖ ► ★ →); Wingdings bullets from Word files no longer show as a boxed "?". From .18: new icon, Options on the File screen, Windows background, zoom slider and one page at a time, Full Mode button.
 
 ## Source code
 
