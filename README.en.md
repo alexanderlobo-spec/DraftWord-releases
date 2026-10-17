@@ -16,7 +16,7 @@ interface, icons and themes. License notices and attributions ship inside each p
 | System | File | Notes |
 |---|---|---|
 | macOS 11+ (Intel and Apple Silicon) | [`macOS/`](macOS/) — universal `.dmg` | Signed with a Developer ID and notarized by Apple: opens without warnings. Drag DraftWord to Applications. |
-| Windows 10/11 (x64) | [`windows/`](windows/) — `.msi` or portable `.zip` | No code-signing certificate: on first launch SmartScreen may warn; choose "More info › Run anyway". |
+| Windows 10/11 (x64) | [`windows/`](windows/) — `.exe` or portable `.zip` | No code-signing certificate: on first launch SmartScreen may warn; choose "More info › Run anyway". |
 
 Each file has a `.sha256` next to it for verification.
 
@@ -32,11 +32,11 @@ Each file has a `.sha256` next to it for verification.
 
 ### Windows
 
-1. Open the [`windows/`](windows/) folder, click the `.msi` file, then the **Download** button.
-2. If nothing shows up, check the browser's download list: Edge often blocks the `.msi` because it has no paid certificate. Click the three dots next to the file and choose **Keep**. Chrome usually lets it through.
+1. Open the [`windows/`](windows/) folder, click the `.exe` file, then the **Download** button.
+2. If nothing shows up, check the browser's download list: Edge may hold the `.exe` because it has no paid certificate. Click the three dots next to the file and choose **Keep**. Chrome usually lets it through.
 3. Double-click the downloaded file.
 4. If the blue "Windows protected your PC" screen appears, click **More info**, then **Run anyway**. The button only shows after "More info". That is SmartScreen noting the app has no paid certificate; it happens on the first run only.
-5. Follow the installer: accept the license, Install, Finish. It may ask for an administrator password.
+5. Follow the installer: accept the license, pick the folder, Install, Finish. It installs for your user only and does not ask for an administrator password.
 6. DraftWord is in the Start menu.
 
 **Not allowed to install programs?** Download the portable `.zip`, unzip it into a folder of yours (Documents, for example) and open the `DraftWord.exe` inside. Nothing is installed.
@@ -47,9 +47,9 @@ Download the new version's file and install it over the old one. Your documents 
 
 ## Current version
 
-0.6.1-draftword.19 (October 14, 2026).
+0.6.1-draftword.20 (October 16, 2026).
 
-What's new: a Close button on the app's first row that closes the document and returns to the Library without closing the window; a second row in the bullet library (● ■ □ ❖ ► ★ →); Wingdings bullets from Word files no longer show as a boxed "?". From .18: new icon, Options on the File screen, Windows background, zoom slider and one page at a time, Full Mode button.
+What's new: the Windows installer is now an `.exe`, which Edge accepts more readily than the `.msi` and installs without an administrator password. From .19: a Close button on the app's first row that closes the document and returns to the Library without closing the window; a second row in the bullet library (● ■ □ ❖ ► ★ →); Wingdings bullets from Word files no longer show as a boxed "?". From .18: new icon, Options on the File screen, Windows background, zoom slider and one page at a time, Full Mode button.
 
 ## Source code
 
