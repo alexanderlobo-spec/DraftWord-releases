@@ -47,9 +47,9 @@ Baixe o arquivo da versão nova e instale por cima. Os documentos ficam onde voc
 
 ## Versão atual
 
-0.6.1-draftword.21 (17/out/2026).
+0.6.1-draftword.23 (23/nov/2026).
 
-Novidades: a interface deixou de citar marcas da Microsoft onde havia termo neutro: "Documento do Word" virou "Documento DOCX", SmartArt virou "Diagrama" (com a aba "Design do Diagrama"), WordArt virou "texto artístico" e "Padrão do Office 2003" virou "Padrão clássico (2003)"; as mensagens de erro seguem o mesmo critério. Da .20: o instalador do Windows é um `.exe`, que o Edge aceita melhor que o `.msi` e instala sem senha de administrador. Da .19: botão Fechar na primeira linha do app, que fecha o documento e volta à Biblioteca sem fechar a janela; biblioteca de marcadores com uma segunda fileira (● ■ □ ❖ ► ★ →); marcadores Wingdings de arquivos do Word deixam de aparecer como caixa com "?". Da .18: ícone novo, Opções na tela Arquivo, fundo no Windows, controle deslizante de zoom e uma página por vez, botão Modo completo.
+Novidades: dois ou mais documentos abertos ao mesmo tempo, cada um na sua janela, como no Word (Novo e Abrir com um documento em uso abrem outra janela; cada janela é um processo, então no Dock aparece um ícone por janela). A linha de abas da faixa rola em janela estreita. No Windows, a atualização por cima da versão anterior passou a ser recuperável. Da .21: a interface deixou de citar marcas da Microsoft onde havia termo neutro, e o instalador do Windows é um `.exe`.
 
 ## Código-fonte
 
