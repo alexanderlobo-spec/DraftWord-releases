@@ -15,7 +15,7 @@ Baseado no [WordCraft](https://github.com/storytold/wordcraft) (MIT OR Apache-2.
 
 | Sistema | Arquivo | Observações |
 |---|---|---|
-| macOS 11+ (Intel e Apple Silicon) | [`macOS/`](macOS/) — `.dmg` universal | Assinado com Developer ID e notarizado pela Apple: abre sem avisos. Arraste o DraftWord para Aplicativos. |
+| macOS 11+ (Intel e Apple Silicon) | [Baixar o DMG universal](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/download/v0.6.1-draftword.24/DraftWord-0.6.1-draftword.24-macOS-universal-2026-11-27.dmg) | [Notas da versão e SHA-256](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/tag/v0.6.1-draftword.24) |
 | Windows 10/11 (x64) | [`windows/`](windows/) — `.exe` ou `.zip` portátil | Sem certificado de assinatura: na primeira abertura o SmartScreen pode avisar; escolha "Mais informações › Executar assim mesmo". |
 
 Cada arquivo tem um `.sha256` ao lado para conferência.
@@ -24,7 +24,7 @@ Cada arquivo tem um `.sha256` ao lado para conferência.
 
 ### macOS
 
-1. Entre na pasta [`macOS/`](macOS/), clique no arquivo `.dmg` e depois no botão **Download**.
+1. [Baixe o DraftWord para macOS](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/download/v0.6.1-draftword.24/DraftWord-0.6.1-draftword.24-macOS-universal-2026-11-27.dmg).
 2. Abra o arquivo baixado. Aparece uma janela com o ícone do DraftWord e a pasta Aplicativos.
 3. Arraste o DraftWord para Aplicativos.
 4. Abra o DraftWord pelo Launchpad ou pela pasta Aplicativos. Não há aviso: o app é notarizado pela Apple.
@@ -45,11 +45,11 @@ Cada arquivo tem um `.sha256` ao lado para conferência.
 
 Baixe o arquivo da versão nova e instale por cima. Os documentos ficam onde você salvou; a instalação não mexe neles.
 
-## Versão atual
+## Versão atual para macOS
 
-0.6.1-draftword.23 (23/nov/2026).
+[0.6.1-draftword.24](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/tag/v0.6.1-draftword.24) (27/nov/2026).
 
-Novidades: dois ou mais documentos abertos ao mesmo tempo, cada um na sua janela, como no Word (Novo e Abrir com um documento em uso abrem outra janela; cada janela é um processo, então no Dock aparece um ícone por janela). A linha de abas da faixa rola em janela estreita. No Windows, a atualização por cima da versão anterior passou a ser recuperável. Da .21: a interface deixou de citar marcas da Microsoft onde havia termo neutro, e o instalador do Windows é um `.exe`.
+O idioma escolhido é preservado ao fechar janelas em outra ordem. Ao fechar um documento de texto simples com formatação, você pode salvá-lo em DOCX e manter fonte, cor e alinhamento.
 
 ## Código-fonte
 

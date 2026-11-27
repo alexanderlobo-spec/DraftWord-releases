@@ -15,7 +15,7 @@ interface, icons and themes. License notices and attributions ship inside each p
 
 | System | File | Notes |
 |---|---|---|
-| macOS 11+ (Intel and Apple Silicon) | [`macOS/`](macOS/) — universal `.dmg` | Signed with a Developer ID and notarized by Apple: opens without warnings. Drag DraftWord to Applications. |
+| macOS 11+ (Intel and Apple Silicon) | [Download the universal DMG](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/download/v0.6.1-draftword.24/DraftWord-0.6.1-draftword.24-macOS-universal-2026-11-27.dmg) | [Release notes and SHA-256](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/tag/v0.6.1-draftword.24) |
 | Windows 10/11 (x64) | [`windows/`](windows/) — `.exe` or portable `.zip` | No code-signing certificate: on first launch SmartScreen may warn; choose "More info › Run anyway". |
 
 Each file has a `.sha256` next to it for verification.
@@ -24,7 +24,7 @@ Each file has a `.sha256` next to it for verification.
 
 ### macOS
 
-1. Open the [`macOS/`](macOS/) folder, click the `.dmg` file, then the **Download** button.
+1. [Download DraftWord for macOS](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/download/v0.6.1-draftword.24/DraftWord-0.6.1-draftword.24-macOS-universal-2026-11-27.dmg).
 2. Open the downloaded file. A window shows the DraftWord icon next to the Applications folder.
 3. Drag DraftWord onto Applications.
 4. Launch DraftWord from Launchpad or the Applications folder. There is no warning: the app is notarized by Apple.
@@ -45,11 +45,11 @@ Each file has a `.sha256` next to it for verification.
 
 Download the new version's file and install it over the old one. Your documents stay where you saved them; the installation does not touch them.
 
-## Current version
+## Current macOS version
 
-0.6.1-draftword.23 (November 23, 2026).
+[0.6.1-draftword.24](https://github.com/alexanderlobo-spec/DraftWord-releases/releases/tag/v0.6.1-draftword.24) (November 27, 2026).
 
-What's new: two or more documents open at the same time, each in its own window, as in Word (New and Open with a document in use open another window; each window is a process, so the Dock shows one icon per window). The ribbon's tab row scrolls in a narrow window. On Windows, updating over the previous version is now recoverable. From .21: the interface no longer mentions Microsoft brands where a neutral term exists, and the Windows installer is an `.exe`.
+The selected language is preserved when windows close in a different order. When closing a formatted plain-text document, you can save it as DOCX to keep its font, color and alignment.
 
 ## Source code
 
